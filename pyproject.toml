@@ -1,0 +1,11 @@
+[project]
+name = "sdo-live"
+version = "1.0.0"
+description = "Fetching most recent Solar observations - SDO images (AIA, HMI), DSCOVR sensor readings"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.2",
+    "pillow>=8.0.0",
+    "requests>=2.32.2",
+]
